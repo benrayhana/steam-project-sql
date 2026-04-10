@@ -50,14 +50,6 @@ les joueurs (profils), les achats, le temps de jeu, les avis
 
 ---
 
-## 🗂️ Structure du projet
-
-- `schema.sql` → création et remplissage de la base
-- `README.md` → présentation du projet
-- `DESIGN.md` → document de conception
-
----
-
 ## 👨‍💻 Auteurs
 
 - Antoine Pacchioni  
@@ -67,9 +59,29 @@ les joueurs (profils), les achats, le temps de jeu, les avis
 
 ---
 
-## ⚠️ Remarques
+## 📁 Fichiers fournis
 
-- Base de données réalisée sous SQLite
-- Certaines contraintes métier (ex : lien achat → temps de jeu) sont définies conceptuellement mais non entièrement implémentées en SQL
+Le dépôt contient les fichiers suivants :
+
+- 📄 **Le Programme complet : Steam_code_final.sql**
+  Script de création du schéma de base de données et des tables (contraintes incluses)
+
+- 🧱 **DESIGN.md**  
+  Document de conception détaillant les entités, relations et choix de modélisation
+
+- 📊 **Le Dataset de référence : steam_db_original.xlsx**  
+  Données brutes utilisées pour alimenter la base (source initiale)
+  **Source :https://www.kaggle.com/datasets/nikatomashvili/steam-games-dataset/data**
+
+- 🧹 **Le Dataset retenu après modifications : jeu_import.csv**  
+  Version nettoyée et adaptée du dataset, prête à être intégrée dans la base
+
+- 🌱 **Le Fichier de peuplement : seed.sql**  
+  Script de génération et insertion de données fictives (joueurs, achats, temps de jeu, avis)
+
+- 🔍 **queries.sql**  
+  Contient les requêtes SQL utilisées pour analyser les données (ventes, engagement, etc.).
+
+  ** Les fichiers sql fournis sont tous déjà inclus dans le programme complet **
 
 ---

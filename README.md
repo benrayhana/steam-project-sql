@@ -85,5 +85,5 @@ Le dépôt contient les fichiers suivants :
 - 🔍 **queries.sql**  
   Contient les requêtes SQL utilisées pour analyser les données (ventes, engagement, etc.).
 
-  **Il est utile de noter que tous les fichiers .sql fournis sont déjà inclus dans le programme complet **
+  **Il est utile de noter que tous les fichiers .sql fournis sont déjà inclus dans le programme complet**
 

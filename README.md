@@ -116,5 +116,18 @@ Le dépôt contient les fichiers suivants :
 - 🔍 **analysis.sql**  
   Contient les requêtes SQL utilisées pour analyser les données (ventes, engagement, etc.).
 
+- 🧩 **schema.sql** 
+  Script SQL annoté contenant la création complète du schéma de la base (tables, clés primaires, clés étrangères et contraintes d’intégrité)
+
   **Il est utile de noter que tous les fichiers .sql fournis sont déjà inclus dans le programme complet**
+
+  ## ⚠️ Remarque — Manipulation des données
+
+Le projet contient des requêtes de manipulation de données de type **INSERT** (ajout), utilisées pour peupler les différentes tables (*joueurs, achats, temps de jeu, avis*).  
+
+En revanche, les opérations de modification (**UPDATE**) et de suppression (**DELETE**) ne sont pas implémentées sous forme de bloc dédié.
+
+Ces requêtes sont présentes de manière **dispersée dans le code**, principalement dans la phase de peuplement, sans constituer un fichier ou une section spécifique dédiée à la manipulation des données.
+
+Par ailleurs, le fichier **`queries.sql` n’est pas fourni**, car ces requêtes ne sont pas regroupées sous forme d’un bloc structuré, certaines seulement étant intégrées directement dans le script principal.
 

@@ -82,7 +82,7 @@ Le dépôt contient les fichiers suivants :
 - 🌱 **Le Fichier de peuplement : seed.sql**  
   Script de génération et insertion de données fictives (joueurs, achats, temps de jeu, avis)
 
-- 🔍 **queries.sql**  
+- 🔍 **analysis.sql**  
   Contient les requêtes SQL utilisées pour analyser les données (ventes, engagement, etc.).
 
   **Il est utile de noter que tous les fichiers .sql fournis sont déjà inclus dans le programme complet**

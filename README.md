@@ -59,6 +59,37 @@ les joueurs (profils), les achats, le temps de jeu, les avis
 
 ---
 
+## 🚀 Améliorations potentielles
+
+Plusieurs pistes d’amélioration peuvent être envisagées pour enrichir ce projet :
+
+- 🌐 **Récupération de données réelles (scraping)**  
+  Intégration de données issues directement de Steam (profils joueurs, comportements, temps de jeu) afin d’obtenir une base plus réaliste et exploitable
+
+- 📊 **Analyses plus avancées**  
+  Développement de nouvelles requêtes SQL pour approfondir l’analyse, par exemple :
+  - Identifier l’éditeur le plus profitable (chiffre d’affaires estimé)
+  - Catégoriser les joueurs selon leur comportement (temps de jeu, préférences de genres, fréquence d’achat)
+
+- 💶 **Suivi dynamique des prix**  
+  Mise en place d’un système permettant de récupérer les prix actuels des jeux afin de détecter automatiquement les périodes de soldes
+
+- ⭐ **Calcul automatique des évaluations**  
+  Remplacer l’évaluation globale statique par un calcul basé sur les avis réels des joueurs (taux de recommandation)
+
+- 📈 **Création de vues SQL et tableaux de bord**  
+  Mise en place de vues (views) pour faciliter l’analyse : top jeux, top joueurs, jeux les plus rentables, etc.
+
+- ➕ **Extension du modèle de données**  
+  Ajout de nouvelles fonctionnalités comme une liste de souhaits (wishlist) ou un historique des prix
+
+- 🔧 **Renforcement des contraintes métier**  
+  Implémentation de contraintes supplémentaires (via triggers) pour garantir par exemple qu’un temps de jeu ne peut exister que si le jeu a été acheté
+
+Et bien d’autres améliorations sont possibles pour rapprocher ce modèle d’une plateforme réelle.
+
+---
+
 ## 📁 Fichiers fournis
 
 Le dépôt contient les fichiers suivants :

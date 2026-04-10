@@ -66,6 +66,9 @@ Le dépôt contient les fichiers suivants :
 - 📄 **Le Programme complet : Steam_code_final.sql**
   Script de création du schéma de base de données et des tables (contraintes incluses)
 
+- 🗄️ **Projet_Steam_final.db** :
+ Base de données finale générée après exécution complète du script SQL
+
 - 🧱 **DESIGN.md**  
   Document de conception détaillant les entités, relations et choix de modélisation
 
@@ -84,4 +87,3 @@ Le dépôt contient les fichiers suivants :
 
   ** Les fichiers sql fournis sont tous déjà inclus dans le programme complet **
 
----

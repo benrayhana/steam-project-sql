@@ -16,7 +16,7 @@ L’objectif est de modéliser les différentes entités y intéragissant ainsi 
 - Implémenter ce schéma en SQLite avec des contraintes d’intégrité
 - Importer des données réelles via un fichier CSV
 - Générer des données fictives réalistes
-- Exploiter les données via des requêtes SQL, servant ainsi de prémice à desanalyses variées (études de marché, comportement des joueurs, ...)
+- Exploiter les données via des requêtes SQL, servant ainsi de prémice à des analyses variées (études de marché, comportement des joueurs, ...)
 
 ---
 
